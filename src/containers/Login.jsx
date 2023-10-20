@@ -28,13 +28,13 @@ import { buttonClick } from '../animations/index.js'
         </div>
 
 {        /**welcome text */
-}        <p className='text-2xl font-semibold text-headingColor  '>Welcome Back</p>
-        <p className='text-sm text-textColor  '>{isSignUp? "Sign up" : "Sign in"} with the following</p>
+}        <p className='text-3xl font-semibold text-headingColor  '>Welcome Back</p>
+        <p className='text-md text-textColor  '>{isSignUp? "Sign up" : "Sign in"} with the following</p>
          {/**input section */}
          <div className='w-full flex flex-col items-center justify-center gap-6 px-4 md:px-12 py-4'>
             <LoginInput
              placeHolder={"Email Here"} 
-             Icon={<FaEnvelope className='text-sm text-textColor' />}
+             Icon={<FaEnvelope className='text-xl text-textColor' />}
               InputState={userEmail}
               InputStateFunc={setuserEmail}
                type="email" 
@@ -43,7 +43,7 @@ import { buttonClick } from '../animations/index.js'
 
             <LoginInput
              placeHolder={"Password Here"} 
-             Icon={<FaLock className='text-sm text-textColor' />}
+             Icon={<FaLock className='text-xl text-textColor' />}
               InputState={password}
               InputStateFunc={setpassword}
                type="email" 
@@ -77,11 +77,11 @@ import { buttonClick } from '../animations/index.js'
                 </p>}
 
                 {/**button section */}
-              {isSignUp ?   <motion.button className='w-full px-4 py-2 rounded-md bg-red-500 cursor-pointer text-white text-sm capitalize hover:bg-red-600 transition-all duration-150'>
+              {isSignUp ?   <motion.button className='w-full px-4 py-2 rounded-md bg-red-500 cursor-pointer text-white text-md capitalize hover:bg-red-600 transition-all duration-150'>
                    sign up
                    </motion.button>:
                    
-                   <motion.button className='w-full px-4 py-2 rounded-md bg-red-500 cursor-pointer text-white text-sm capitalize hover:bg-red-600 transition-all duration-150'>
+                   <motion.button className='w-full px-4 py-2 rounded-md bg-red-500 cursor-pointer text-white text-md capitalize hover:bg-red-600 transition-all duration-150'>
                    sign in 
                    </motion.button>}
 
