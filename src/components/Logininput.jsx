@@ -16,7 +16,7 @@ const Logininput = ({placeHolder, Icon, InputState, InputStateFunc, type, isSign
         onFocus={()=> setisFocus(true)}
         onBlur={() => setisFocus(false)}
         onChange={(e) => InputStateFunc(e.target.value)}
-        className='w-full h-3 bg-transparent text-headingColor text-l font-semibold border-none outline-none '/>
+        className='w-full h-3 bg-transparent text-headingColor text-md font-semibold border-none outline-none '/>
     </motion.div>
   )
 }
