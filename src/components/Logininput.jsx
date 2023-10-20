@@ -7,7 +7,7 @@ const Logininput = ({placeHolder, Icon, InputState, InputStateFunc, type, isSign
   
     return (
     <motion.div {...fadeinout}
-     className={`flex items-center justify-center gap-4 bg-gray-50 bg-opacity-50   backdrop-blur-md rounded-md w-full px-4 py-2
+     className={`flex items-center justify-center gap-4 bg-gray-50 bg-opacity-50   backdrop-blur-md rounded-md w-full px-4 py-3
      ${isFocus? "shadow-md shadow-red-400": "shadow-none"}`}>
         {Icon}
         <input type={type} 
