@@ -51,7 +51,7 @@ import { buttonClick } from '../animations/index.js'
 
             { isSignUp && (<LoginInput
              placeHolder={"confirm password Here"} 
-             Icon={<FaEnvelope className='text-sm text-textColor' />}
+             Icon={<FaEnvelope className='text-xl text-textColor' />}
               InputState={confirm_password}
               InputStateFunc={setconfirm_password}
                type="email" 
