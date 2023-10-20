@@ -63,7 +63,7 @@ import { buttonClick } from '../animations/index.js'
                {...buttonClick}
                onClick={()=> setisSignUp(true)}
                >
-                 Create one
+                 Create two
                </motion.button> </p>: 
                <p>
                <p className='text-sm'> Already have an account:    
