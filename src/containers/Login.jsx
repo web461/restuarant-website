@@ -77,11 +77,11 @@ import { buttonClick } from '../animations/index.js'
                 </p>}
 
                 {/**button section */}
-              {isSignUp ?   <motion.button className='w-full px-4 py-2 rounded-md bg-red-500 cursor-pointer text-white text-md capitalize hover:bg-red-600 transition-all duration-150'>
+              {isSignUp ?   <motion.button className='w-full px-4 py-3 rounded-md bg-red-500 cursor-pointer text-white text-md capitalize hover:bg-red-600 transition-all duration-150'>
                    sign up
                    </motion.button>:
                    
-                   <motion.button className='w-full px-4 py-2 rounded-md bg-red-500 cursor-pointer text-white text-md capitalize hover:bg-red-600 transition-all duration-150'>
+                   <motion.button className='w-full px-4 py-3 rounded-md bg-red-500 cursor-pointer text-white text-md capitalize hover:bg-red-600 transition-all duration-150'>
                    sign in 
                    </motion.button>}
 
